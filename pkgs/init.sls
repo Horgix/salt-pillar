@@ -1,7 +1,10 @@
 pkgs:
+  python2-dbus:   python2-dbus
+  urxvt-terminfo: rxvt-unicode-terminfo
   bash: bash
+  zsh:  zsh
   git:  git
-  python2-dbus: python2-dbus
+  # Network tools
   netcat:   openbsd-netcat
   tcpdump:  tcpdump
   netstat:  net-tools
@@ -11,7 +14,6 @@ pkgs:
     - tcpdump
     - netstat
     - dig
-  urxvt-terminfo: rxvt-unicode-terminfo
-  vim:  vim
-  zsh:  zsh
+  vim:    vim
+  docker: docker
 
