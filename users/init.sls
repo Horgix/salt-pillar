@@ -1,11 +1,17 @@
 {% macro full_user_conf() -%}
-zsh_conf: True
+    zsh_conf:   True
+    bash_conf:  True
+    shell_conf: True
+    vim_conf:   True
 {%- endmacro %}
 
 users:
-  - root:
-    name:     'root'
+  root:
     {{ full_user_conf() }}
-  - horgix:
-    name:     'horgix'
+  horgix:
+    sudoer:   True
+    dockerer: True
     {{ full_user_conf() }}
+  testuser:
+    #tstuser2:
+    #{{ full_user_conf() }}
