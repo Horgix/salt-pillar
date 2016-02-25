@@ -1,4 +1,4 @@
 base:
-  'salara.be':
+  'pelargir.horgix.fr':
     - pkgs
     - users
