@@ -7,11 +7,9 @@
 
 users:
   root:
+    shell:    zsh
     {{ full_user_conf() }}
   horgix:
-    sudoer:   True
-    dockerer: True
+    shell:    zsh
     {{ full_user_conf() }}
-  testuser:
-    #tstuser2:
-    #{{ full_user_conf() }}
+    sudoer:   True
