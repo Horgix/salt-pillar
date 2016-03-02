@@ -35,11 +35,14 @@ pkgs:
   {% elif grains['os_family'] == 'RedHat' %}
   dig:      bind-utils
   {% endif %}
+  htop:     htop
   networktools:
     - netcat
     - tcpdump
     - netstat
     - dig
+  systemtools:
+    - htop
 
   # VIM
   {% if grains['os_family'] == 'Arch' %}
