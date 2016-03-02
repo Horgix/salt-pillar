@@ -1,4 +1,6 @@
 base:
-  'pelargir.horgix.fr':
+  '*.horgix.fr':
     - pkgs
     - users
+  'pelargir.horgix.fr':
+    - role.dockerhost
