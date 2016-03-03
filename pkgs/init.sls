@@ -12,11 +12,7 @@ pkgs:
   zsh:  zsh
 
   # GIT
-  {% if grains['os_family'] == 'Arch' %}
   git:  git
-  {% elif grains['os_family'] == 'RedHat' %}
-  git:  git-core
-  {% endif %}
 
   # Network tools
   ## Netcat
