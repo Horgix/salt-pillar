@@ -36,6 +36,7 @@ pkgs:
   dig:      bind-utils
   {% endif %}
   htop:     htop
+  tree:     tree
   networktools:
     - netcat
     - tcpdump
@@ -43,6 +44,7 @@ pkgs:
     - dig
   systemtools:
     - htop
+    - tree
 
   # VIM
   {% if grains['os_family'] == 'Arch' %}
@@ -50,5 +52,12 @@ pkgs:
   {% elif grains['os_family'] == 'RedHat' %}
   vim:    vim-enhanced
   {% endif %}
+
+  # Docker
+  {% if grains['os_family'] == 'Arch' %}
   docker: docker
+  {% elif grains['os'] == 'Fedora' %}
+  docker: docker-engine # From official docker repo
+  {% endif %}
+
 
