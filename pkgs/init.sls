@@ -41,6 +41,7 @@ pkgs:
   systemtools:
     - htop
     - tree
+  sudo: sudo
 
   # VIM
   {% if grains['os_family'] == 'Arch' %}
