@@ -42,6 +42,7 @@ pkgs:
     - htop
     - tree
   sudo: sudo
+  lxc:  lxc
 
   # VIM
   {% if grains['os_family'] == 'Arch' %}
