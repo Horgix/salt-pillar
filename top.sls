@@ -4,3 +4,5 @@ base:
     - users
   'pelargir.horgix.fr':
     - role.dockerhost
+  'edoras.horgix.fr':
+    - role.lxchost
