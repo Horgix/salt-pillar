@@ -1,1 +1,1 @@
-dockerhost:   True
+dockerhost: True
