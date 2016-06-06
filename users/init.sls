@@ -9,9 +9,11 @@ default_shell: bash
 
 users:
   root:
-    shell: bash
+    fullname: 'Alexis "Horgix" Chotard'
+    shell: zsh
     {{ full_user_conf() }}
   horgix:
+    fullname: 'Alexis "Horgix" Chotard'
     shell: zsh
     {{ full_user_conf() }}
     sudoer:   True
