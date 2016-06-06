@@ -43,6 +43,12 @@ pkgs:
     - tree
   sudo: sudo
   lxc:  lxc
+  ovs: openvswitch
+  archinstall: arch-install-scripts
+  lxctools:
+    - lxc
+    - ovs
+    - archinstall
 
   # VIM
   {% if grains['os_family'] == 'Arch' %}
@@ -57,5 +63,3 @@ pkgs:
   {% elif grains['os'] == 'Fedora' %}
   docker: docker-engine # From official docker repo
   {% endif %}
-
-
