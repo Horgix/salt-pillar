@@ -1,16 +1,18 @@
+default_shell: bash
+
 {% macro full_user_conf() -%}
     zsh_conf:   True
     bash_conf:  True
     shell_conf: True
     vim_conf:   True
-{%- endmacro %}
+{% endmacro %}
 
 users:
   root:
-    shell:    zsh
+    shell: bash
     {{ full_user_conf() }}
   horgix:
-    shell:    zsh
+    shell: zsh
     {{ full_user_conf() }}
     sudoer:   True
     ssh_keys:
