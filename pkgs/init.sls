@@ -13,6 +13,7 @@ pkgs:
 
   # GIT
   git:  git
+  wget: wget
 
   # Network tools
   ## Netcat
@@ -49,6 +50,9 @@ pkgs:
     - lxc
     - ovs
     - archinstall
+  basictools:
+    - git
+    - wget
 
   # VIM
   {% if grains['os_family'] == 'Arch' %}
