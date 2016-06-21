@@ -45,11 +45,13 @@ pkgs:
   sudo: sudo
   lxc:  lxc
   ovs: openvswitch
+  dhcpd: dhcp
   archinstall: arch-install-scripts
   lxctools:
     - lxc
     - ovs
     - archinstall
+    - dhcpd
   basictools:
     - git
     - wget
