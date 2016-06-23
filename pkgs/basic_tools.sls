@@ -1,5 +1,5 @@
 pkgs:
-  basictools:
+  basic_tools:
     - git
     - wget
   git:  git

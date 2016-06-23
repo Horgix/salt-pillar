@@ -1,5 +1,5 @@
 pkgs:
-  networktools:
+  network_tools:
     - netcat
     - tcpdump
     - netstat

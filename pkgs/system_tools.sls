@@ -1,5 +1,5 @@
 pkgs:
-  systemtools:
+  system_tools:
     - htop
     - tree
   htop:     htop
