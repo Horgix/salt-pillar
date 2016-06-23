@@ -15,7 +15,7 @@ network:
       ip: dhcp
     brlxc:
       desc: 'Bridge for internal LXC network'
-      kind: bridge
+      kind: openvswitch
       ip: static
       addresses:
         - 192.168.42.1/24
