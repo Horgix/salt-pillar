@@ -10,5 +10,5 @@ base:
   'edoras.horgix.fr':
     - role.lxchost
     - lxc
-    - role.dediboxserial
+    - role.dedibox_serial_console
     - network.edoras

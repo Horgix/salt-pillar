@@ -1,0 +1,1 @@
+dedibox_serial_console: True
