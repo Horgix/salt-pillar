@@ -24,6 +24,7 @@ network:
     - systemd-networkd
     - systemd-resolved
     - network
+    - dhcpcd
 
 #2: enp0s20f0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
 #    link/ether 00:07:cb:03:cb:3f brd ff:ff:ff:ff:ff:ff
