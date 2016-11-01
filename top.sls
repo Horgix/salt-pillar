@@ -12,3 +12,6 @@ base:
     - lxc
     - role.dedibox_serial_console
     - network.edoras
+  'moria':
+    - role.xorghost
+    - role.dockerhost
