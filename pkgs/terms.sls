@@ -4,3 +4,4 @@ pkgs:
   {% elif grains['os_family'] == 'RedHat' %}
   urxvt-terminfo: rxvt-unicode-256color # Well, install the whole terminal
   {% endif %}
+  urxvt: rxvt-unicode
