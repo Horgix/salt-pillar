@@ -5,12 +5,13 @@ pkgs:
     - wget
     - sudo
     - vim
-  python2-dbus: python2-dbus
   git:  git
   wget: wget
   sudo: sudo
   {% if grains['os_family'] == 'Arch' %}
   vim: vim
+  python2-dbus: python2-dbus
   {% elif grains['os_family'] == 'RedHat' %}
   vim: vim-enhanced
+  python2-dbus: dbus-python
   {% endif %}
