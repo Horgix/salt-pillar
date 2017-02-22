@@ -6,3 +6,5 @@ include:
   - pkgs.system_tools
   - pkgs.lxc
   - pkgs.docker
+  - pkgs.wms
+  - pkgs.workstation_tools
