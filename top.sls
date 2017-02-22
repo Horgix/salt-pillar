@@ -1,7 +1,4 @@
 base:
-  '*.horgix.fr':
-    - pkgs
-    - users
   '*':
     - pkgs
     - users
@@ -13,5 +10,10 @@ base:
     - role.dedibox_serial_console
     - network.edoras
   'moria':
-    - role.xorghost
+    - role.dockerhost
+    - wm.gnome
+  'vendetta':
+    - role.dockerhost
+    - wm.i3
+  'galadhon':
     - role.dockerhost
