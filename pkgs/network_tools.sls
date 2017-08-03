@@ -4,6 +4,7 @@ pkgs:
     - tcpdump
     - netstat
     - dig
+    - traceroute
 
   tcpdump:  tcpdump
   netstat:  net-tools
