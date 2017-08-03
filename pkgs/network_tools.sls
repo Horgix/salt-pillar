@@ -6,8 +6,9 @@ pkgs:
     - dig
     - traceroute
 
-  tcpdump:  tcpdump
-  netstat:  net-tools
+  tcpdump:    tcpdump
+  netstat:    net-tools
+  traceroute: traceroute
 
   {% if grains['os_family'] == 'Arch' %}
   netcat:   openbsd-netcat
