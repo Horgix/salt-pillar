@@ -5,7 +5,6 @@ default_shell: bash
     bash_conf:  True
     shell_conf: True
     vim_conf:   True
-    x_conf:     False
 {% endmacro %}
 
 users:
