@@ -20,5 +20,5 @@ pkgs:
   python2-dbus: python2-dbus
   python3:      python
   rg:           ripgrep
-  exa           exa
+  exa:          exa
   ssh:          ssh
