@@ -7,6 +7,7 @@ pkgs:
     - vim
     - most
     - python3
+    - ssh
     # Rust alternatives to usual Unix commands
     - rg    # Alternative to grep
     - exa   # Alternative to ls
@@ -20,3 +21,4 @@ pkgs:
   python3:      python
   rg:           ripgrep
   exa           exa
+  ssh:          ssh
