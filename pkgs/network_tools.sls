@@ -10,4 +10,4 @@ pkgs:
   netstat:    net-tools
   traceroute: traceroute
   netcat:   openbsd-netcat
-  dig:      bind-tools
+  dig:      bind
