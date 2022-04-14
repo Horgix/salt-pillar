@@ -40,4 +40,4 @@ pkgs:
   xorg:       xorg-server
   xinit:      xorg-xinit
   xrandr:     xorg-xrandr
-  zsh-powelevel10k: zsh-theme-powerlevel10k
+  zsh-powerlevel10k: zsh-theme-powerlevel10k
