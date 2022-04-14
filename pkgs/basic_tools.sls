@@ -3,6 +3,7 @@ pkgs:
     - git
     - wget
     - sudo
+    - vi
     - vim
     - most
     - python3
@@ -10,6 +11,7 @@ pkgs:
   wget: wget
   sudo: sudo
   most: most
+  vi:           vi
   vim:          vim
   python2-dbus: python2-dbus
   python3:      python
