@@ -7,6 +7,9 @@ pkgs:
     - vim
     - most
     - python3
+    # Rust alternatives to usual Unix commands
+    - rg    # Alternative to grep
+    - exa   # Alternative to ls
   git:  git
   wget: wget
   sudo: sudo
@@ -15,3 +18,5 @@ pkgs:
   vim:          vim
   python2-dbus: python2-dbus
   python3:      python
+  rg:           ripgrep
+  exa           exa
