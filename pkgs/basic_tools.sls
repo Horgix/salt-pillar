@@ -21,4 +21,4 @@ pkgs:
   python3:      python
   rg:           ripgrep
   exa:          exa
-  ssh:          ssh
+  ssh:          openssh
