@@ -10,7 +10,7 @@ default_shell: bash
 
 users:
   root:
-    fullname: 'Alexis "Horgix" Chotard'
+    fullname: 'Alexis \"Horgix\" Chotard'
     shell: zsh
     home: /root
     {{ full_user_conf() }}
