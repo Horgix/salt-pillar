@@ -11,6 +11,9 @@ pkgs:
     - feh
     - eog
     - fzf
+    - xorg
+    - xrandr
+    - xinit
   firefox:    firefox
   # Terminals
   urxvt:      rxvt-unicode
@@ -32,3 +35,7 @@ pkgs:
   eog:        eog
   # Tooling around shell
   fzf:        fzf
+  # WM related tools
+  xorg:       xorg-server
+  xinit:      xorg-xinit
+  xrandr:     xorg-xrandr
