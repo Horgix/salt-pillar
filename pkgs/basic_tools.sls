@@ -1,6 +1,5 @@
 pkgs:
   basic_tools:
-    - python2-dbus
     - git
     - wget
     - sudo
