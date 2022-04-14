@@ -27,3 +27,6 @@ users:
       horgix@fangorn:
         kind: 'ed25519'
         pubkey: 'AAAAC3NzaC1lZDI1NTE5AAAAIDPhciaTJf48t1GXb1gyLlP49y8/gRHmnlpo1c9SnW7E'
+      horgix@zirakzigil:
+        kind: 'ed25519'
+        pubkey: 'AAAAC3NzaC1lZDI1NTE5AAAAIBwZPKR8UEJSeZYdRjJ9iTMdPt1BCEO8kYITKY5sVRkG'
