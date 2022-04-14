@@ -14,6 +14,7 @@ pkgs:
     - xorg
     - xrandr
     - xinit
+    - zsh-powerlevel10k # TODO move this to wm
   firefox:    firefox
   # Terminals
   urxvt:      rxvt-unicode
@@ -39,3 +40,4 @@ pkgs:
   xorg:       xorg-server
   xinit:      xorg-xinit
   xrandr:     xorg-xrandr
+  zsh-powelevel10k: zsh-theme-powerlevel10k
