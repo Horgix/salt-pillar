@@ -21,3 +21,5 @@ base:
     - wm.i3
   'galadhon':
     - role.dockerhost
+  'zirakzigil':
+    - wm.i3
