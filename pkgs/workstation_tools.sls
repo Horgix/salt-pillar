@@ -2,6 +2,7 @@ pkgs:
   workstation_tools:
     - firefox
     - urxvt
+    - alacritty
     - zathura
     - zathura_mupdf
     - alsa_utils
@@ -10,7 +11,9 @@ pkgs:
     - feh
     - eog
   firefox:    firefox
+  # Terminals
   urxvt:      rxvt-unicode
+  alacritty:  alacritty
   i3lock:     i3lock
   i3status:   i3status
   py3status:  py3status
