@@ -1,5 +1,4 @@
 include:
-  - pkgs.terms
   - pkgs.shells
   - pkgs.basic_tools
   - pkgs.network_tools
