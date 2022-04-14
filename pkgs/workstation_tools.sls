@@ -5,7 +5,7 @@ pkgs:
     - alacritty
     - zathura
     - zathura_mupdf
-    - alsa_utils
+    # - alsa_utils
     - pass
     - rofi
     - feh
