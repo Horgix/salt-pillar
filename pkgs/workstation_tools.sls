@@ -10,6 +10,7 @@ pkgs:
     - rofi
     - feh
     - eog
+    - fzf
   firefox:    firefox
   # Terminals
   urxvt:      rxvt-unicode
@@ -29,3 +30,5 @@ pkgs:
   # Image viewers
   feh:        feh
   eog:        eog
+  # Tooling around shell
+  fzf:        fzf
